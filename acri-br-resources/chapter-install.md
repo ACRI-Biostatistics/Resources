@@ -1,0 +1,110 @@
+Packages and Software
+================
+
+It is important to keep your electronic tools updated and consistent
+across projects. We recommend that all team members install and maintain
+the following software and R packages.
+
+For new team members, or for anyone without administrator privileges,
+please contact AC/ACRI IT for assistance. The installation order
+matters, so we recommend installing the tools in the order listed below.
+
+### R
+
+[R](http://cran.r-project.org/) is the core software used for
+statistical analysis. Please install the most recent stable version of R
+and update it periodically.
+
+### RStudio
+
+[RStudio
+Desktop](https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads) is
+the integrated development environment used to work with R, GitHub, and
+Markdown/R Markdown files.
+
+To check for updates in RStudio, go to:
+
+`Help` → `Check for Updates`
+
+### GitHub
+
+[GitHub](https://github.com/) is used for version control and
+collaborative code development. A GitHub account is required if you need
+to push changes to ACRI Biostatistics repositories.
+
+Please register for a free GitHub account and send your exact GitHub
+username to the repository owner, Dr. Yutian Thompson, so you can be
+added as a collaborator.
+
+### GitHub Desktop
+
+[GitHub Desktop](http://desktop.github.com/) provides a user-friendly
+interface for common GitHub tasks, such as cloning repositories,
+committing changes, pulling updates, and pushing files. It is available
+for both Windows and macOS.
+
+Although RStudio also has built-in Git/GitHub features, GitHub Desktop
+is often easier for beginners and is recommended for routine repository
+management.
+
+### Installing R Packages
+
+After installing R and RStudio, please install the commonly used R
+packages by running the following code in RStudio.
+
+``` r
+if (!base::requireNamespace("devtools", quietly = TRUE)) {
+  utils::install.packages("devtools")
+}
+
+devtools::source_gist(
+  "2c5e7459b88ec28b9e8fa0c695b15ee3",
+  filename = "package-janitor-bbmc.R"
+)
+
+package_janitor_remote(
+  "https://github.com/ACRI-Biostatistics/Resources/blob/main/packages/package-dependency-list.csv"
+)
+```
+
+This script installs and checks the frequently used packages listed in
+the package dependency file.
+
+### Installing RStudio Add-ins
+
+Several RStudio add-ins can improve coding efficiency and readability.
+For example, `AlignAssign` helps align assignment operators and equal
+signs in highlighted R code, making scripts easier to read.
+
+To install `AlignAssign`, run one of the following commands:
+
+``` r
+remotes::install_github("seasmith/AlignAssign")
+
+# Alternative version
+remotes::install_github("nrennie/AlignAssign")
+```
+
+If you find other useful RStudio add-ins, please let the team know so we
+can update and add them to this resource page.
+
+### Python
+
+[Python](https://www.python.org/) is commonly used for data science,
+machine learning, automation, and some research workflows.
+
+For easier installation and package management, we recommend using
+[Anaconda](https://www.anaconda.com/distribution/#download-section),
+which includes Jupyter Notebook, JupyterLab, Spyder, and common Python
+package-management tools.
+
+After installing Anaconda, Windows users can open **Anaconda Prompt**
+with administrator privileges and install commonly used Python packages
+with:
+
+``` python
+conda install numpy pandas scikit-learn matplotlib
+```
+
+Additional Python packages may be installed as needed for specific
+projects.

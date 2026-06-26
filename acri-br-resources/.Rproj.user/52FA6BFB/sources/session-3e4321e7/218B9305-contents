@@ -1,4 +1,11 @@
-# Packages and Software
+---
+title: "Packages and Software"
+output:
+  github_document:
+    toc: true
+    toc_depth: 2
+---
+
 
 It is important to keep your electronic tools updated and consistent across projects. We recommend that all team members install and maintain the following software and R packages.
 
