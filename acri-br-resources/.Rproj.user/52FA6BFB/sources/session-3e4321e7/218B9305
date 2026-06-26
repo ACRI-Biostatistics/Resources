@@ -1,11 +1,11 @@
 {
     "id": "218B9305",
-    "path": null,
-    "project_path": null,
+    "path": "~/GitHub/Resources/acri-br-resources/chpater-install.Rmd",
+    "project_path": "chpater-install.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "4054297621",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1782483230431.0,
     "source_on_save": false,
     "relative_order": 1,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "24,32",
-        "scrollLine": "4"
+        "cursorPosition": "80,0",
+        "scrollLine": "48"
     },
     "folds": "",
-    "lastKnownWriteTime": 8295751972865469298,
-    "encoding": "",
+    "lastKnownWriteTime": 1782486394,
+    "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1782484849180,
+    "last_content_update": 1782486394098,
     "read_only": false,
     "read_only_alternatives": []
 }
