@@ -1,0 +1,37 @@
+Packages and Software
+====================================
+
+It is very important to keep your e-tools updated amd consistent. We highly recommend everyone install and maintain the following software and packages. If you are new, or do not have the admin power to install them, please let AC's IT know this tip, and the stallation order matters.
+
+
+### R {#workstation-r}
+[R](http://cran.r-project.org/) is the centerpiece of the analysis. Every few months, you'll need to download the most recent version.
+
+### RStudio {#workstation-rstudio}
+
+[RStudio Desktop](https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads) is the IDE (integrated design interface) that you'll use to interact with R, GitHub, and Markdown. Updates can be checked easily through the menus `Help` -> `Check for Updates`.  
+
+
+### Installing R Packages {#workstation-r-package-installation}
+
+Please install some frequently-used packages, run the following snippet. 
+
+```r
+if (!base::requireNamespace("devtools")) utils::install.packages("devtools")
+devtools::source_gist("2c5e7459b88ec28b9e8fa0c695b15ee3", filename="package-janitor-bbmc.R")
+
+# The frequently-used-packages
+package_janitor_remote(
+  "https://raw.githubusercontent.com/OuhscBbmc/RedcapExamplesAndPatterns/main/utility/package-dependency-list.csv"
+)
+
+# Nonessential packages used in a few BBMC projects
+package_janitor_remote(
+  "https://raw.githubusercontent.com/OuhscBbmc/RedcapExamplesAndPatterns/main/utility/package-dependency-list-more.csv"
+)
+
+# OHDSI packages (Strategus, Achilles, DatabaseConnector, etc.)
+package_janitor_remote(
+  "https://raw.githubusercontent.com/OuhscBbmc/cdw-skeleton-1/main/utility/package-dependency-list-ohdsi.csv"
+)
+```
