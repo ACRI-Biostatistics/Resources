@@ -1,0 +1,98 @@
+package_name,on_cran,install,github_username,description
+arrow,TRUE,TRUE,,"Similar to an rds file, but language-agnostic."
+BiocManager,TRUE,TRUE,,install Bioconductor packages.
+bookdown,TRUE,TRUE,,markdown syntax for books.
+broom,TRUE,TRUE,,Modeling helpers.
+car,TRUE,TRUE,,"Accompanies Fox, J. and Weisberg, S., An R Companion to Applied Regression."
+checkmate,TRUE,TRUE,mllg,Checks/asserts values.
+classInt,TRUE,TRUE,,Choosing univariate class intervals for mapping or other graphics purposes.
+coda,TRUE,TRUE,,MCMC monitoring.
+codified,TRUE,TRUE,,create output used in conventional publications and reports.
+colorspace,TRUE,TRUE,,Explicit control over the HCL color scheme.
+comorbidity,TRUE,TRUE,,Computing comorbidity indices and scores such as the weighted Charlson score.
+config,TRUE,TRUE,,Wrapper around reading from yaml settings.
+corrplot,TRUE,TRUE,,Correlation matrix plot.
+curl,TRUE,TRUE,,Connecting with web resources.
+data.table,TRUE,FALSE,,An alternative to dplyr.
+dataverse,TRUE,TRUE,,Client for Dataverse 4+ Repositories.
+devtools,TRUE,TRUE,,RStudio's package of auxiliary functions for package development.
+digest,TRUE,TRUE,,Creates SHA hashes for the recruiting database
+dint,TRUE,TRUE,,"work with year-quarter, year-month and year-isoweek vectors"
+dplyr,TRUE,TRUE,,Data manipulation (plyr's successor)
+DT,TRUE,TRUE,rstudio,An R interface to the DataTables library
+duckdb,TRUE,TRUE,,Embedded analytical data management system
+flexdashboard,TRUE,TRUE,,Uses R Markdown to produce a Shiny-esque dashboard
+forcats,TRUE,FALSE,,Factor helpers.
+foreign,TRUE,FALSE,,Reads data in other formats.
+fs,TRUE,TRUE,,file system interaction.
+GGally,TRUE,TRUE,,Specialized graphs on top of ggplot.
+ggmap,TRUE,TRUE,,"Maps & graphics, based on ggplot."
+ggmcmc,TRUE,FALSE,,Graphing MCMC results.
+ggplot2,TRUE,TRUE,,Graphing.
+ggthemes,TRUE,TRUE,,"Extra themes, scales and geoms for ggplot."
+glmnet,TRUE,TRUE,,Lasso and ridge regression.
+goodpractice,TRUE,TRUE,,Advice about good practices.
+googleVis,TRUE,FALSE,,"JavaScript-based visualizations, like scrollable tables."
+gridExtra,TRUE,TRUE,,Extra features to produce grid graphics
+gtsummary,TRUE,TRUE,,Presentation-Ready Data Summary and Analytic Result Tables
+haven,TRUE,FALSE,,Reads data in other formats.
+httr,TRUE,TRUE,,Connecting with web resources.
+import,TRUE,TRUE,,Add function to an environment's search path.
+janitor,TRUE,FALSE,,Simple Tools for Examining and Cleaning Dirty Data.
+kableExtra,TRUE,TRUE,,Cosmetic improvments to `knitr::kable()`.
+keyring,TRUE,FALSE,,access the operating system's credential store.
+knitr,TRUE,TRUE,,For reporting.
+lavaan,TRUE,TRUE,,Latent models with Mplus syntax.
+lintr,TRUE,TRUE,,"Adherence to a given style, syntax errors and possible semantic issues."
+lme4,TRUE,TRUE,,Multilevel models.
+lubridate,TRUE,TRUE,,Consistent/convenient function signatures for manipulating dates.
+magrittr,TRUE,TRUE,,Pipe-like operator needed for dplyr.
+MCMCglmm,TRUE,TRUE,,MCMC specialized for GLMs.
+mgcv,TRUE,TRUE,,Generalized additive models.
+modeest,TRUE,TRUE,,Estimating the mode of unimodal distributions.
+odbc,TRUE,TRUE,r-dbi,Newer alternative to RODBC
+OuhscMunge,FALSE,TRUE,OuhscBbmc,Data manipulation operations.
+pkgdown,TRUE,TRUE,,documentation website for a package
+plotly,TRUE,TRUE,,ggplot2 graphs translated to JavaScript (and other functions)
+plyr,TRUE,FALSE,,Important for most of our data manipulation. But don't load with library() or require().
+purrr,TRUE,TRUE,,vector mapping and other functional programming practices.
+R2OpenBUGS,TRUE,FALSE,,"Interact with the Bayesian modeling software, OpenBugs."
+R2PPT,TRUE,FALSE,,Generates PowerPoint slides.
+R2WinBUGS,TRUE,FALSE,,"Interact with the Bayesian modeling software, WinBugs."
+random,TRUE,TRUE,,Creates random numbers for salts.
+RColorBrewer,TRUE,TRUE,,Explicit control over the Color Brewer colors.  See http://colorbrewer2.org/.
+RcppRoll,TRUE,TRUE,,Optimized window & rolling functions
+RCurl,TRUE,FALSE,,Interact with the web APIs.
+readr,TRUE,TRUE,,Reading & writing rectangular data.
+RecordLinkage,TRUE,FALSE,,Matching/linking records.
+REDCapR,FALSE,TRUE,OuhscBbmc,R utilities for interacting with a REDCap data system (http://www.project-redcap.org/).
+rematch2,TRUE,FALSE,,Tidy Output from regexes.
+remotes,TRUE,TRUE,,Manages remote sources of packages.
+reshape2,TRUE,FALSE,,Data manipulation not covered in plyr.
+rjags,TRUE,FALSE,,Bayesian software; install: https://cran.r-project.org/web/packages/rjags/INSTALL
+rlang,TRUE,TRUE,r-lib,Language extensions.
+rmarkdown,TRUE,TRUE,,Needed for knitr and reports.
+rmdformats,TRUE,TRUE,juba,Formats and templates for RMarkdown documents.
+rms,TRUE,FALSE,,Harrell's Regression Modeling Strategies.
+RODBC,TRUE,TRUE,,For connecting to ODBC databases.
+RODBCext,FALSE,FALSE,,Parameterized queries for SQL Server.  Archived on CRAN Feb 2020
+roxygen2,TRUE,TRUE,,Creates documentation Rd file from (well-formed) comments.
+rpivotTable,TRUE,TRUE,,Very dynamic HTML table
+sessioninfo,TRUE,TRUE,,Query and print information about the current R session.
+shiny,TRUE,TRUE,,Web front-end for R
+shinydashboard,TRUE,TRUE,,Bootstrap themes for Shiny
+simPH,TRUE,TRUE,,Supporting functions for Cox regression.
+sqldf,TRUE,TRUE,,SQL Selects on R Data Frames; used for inequality constraint joints.
+stringr,TRUE,TRUE,,Consistent/convenient function signatures for manipulating text.
+striprtf,TRUE,TRUE,,Extracts plain text from RTF (Rich Text Format).
+TabularManifest,FALSE,TRUE,Melinae,Easier EDA functions.
+testit,TRUE,TRUE,,has the useful `assert()` function.
+testthat,TRUE,TRUE,,Heavier testing framework that's good for package development.
+tidycensus,TRUE,TRUE,,interface to several United States Census Bureau APIs.
+tidyr,TRUE,TRUE,,Data manipulation; replaces much of reshape2; works w/ magrittr and dplyr well.
+vroom,TRUE,TRUE,,Reading & writing rectangular data.
+whoami,TRUE,TRUE,,System and configuration information.
+xtable,TRUE,TRUE,,"Formats tables, especially for LaTeX output."
+yaml,TRUE,TRUE,,For knitr and reports.
+zipcodeR,TRUE,TRUE,,Working with US ZIP Codes.
+zoo,TRUE,TRUE,,Time series analysis.
